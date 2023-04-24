@@ -4,8 +4,8 @@
   "description": "api",
   "main": "index.js",
   "scripts": {
-    "start": "node build/index.js",
-    "build": "node src --out-dir build",
+    "start": "node dist/index.js",
+    "build": "node src --out-dir dist",
     "dev": "nodemon src/index.js --exec babel-node"
   },
   "keywords": [],
