@@ -8,6 +8,7 @@
     "build": "node src --out-dir dist",
     "dev": "nodemon src/index.js --exec babel-node"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
